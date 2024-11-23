@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module curTool {
+	
+	exports cutTool;
+}

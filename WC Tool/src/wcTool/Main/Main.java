@@ -10,9 +10,15 @@ public class Main {
 
 	public static void main(String args[]) {
 		
+
+		
+		//System.out.println("WC TOOl JAR Current working directory: " + System.getProperty("user.dir"));
+		
 		if(!args[0].equals("ccwc")) {
 			System.out.println("Enter a Valid Command");
 		}
+		
+		System.out.println("Welcome to ccwc tool");
 		
 		if(args.length<=3 && args[args.length-1].endsWith(".txt")) {
 			OperateFile of=new OperateFile(args[args.length-1]);

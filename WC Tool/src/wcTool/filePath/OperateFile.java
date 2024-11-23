@@ -61,7 +61,6 @@ public class OperateFile {
 				characters+=temp.length();
 			}
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return characters;
