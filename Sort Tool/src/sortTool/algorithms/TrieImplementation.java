@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class TrieImplementation {
+public class TrieImplementation implements SortInterface {
 	
 	class Trie {
 
