@@ -1,8 +1,7 @@
 package sortTool;
 
-import sortTool.algorithms.MSDStringSort;
 import sortTool.algorithms.SortInterface;
-import sortTool.algorithms.TrieImplementation;
+import sortTool.algorithms.ThreeWayQuickSort;
 
 public class SortMainClass {
 
@@ -20,9 +19,9 @@ public class SortMainClass {
 			String FILENAME=args[args.length-1];
 			SortInterface sort;
 			if(args[1].equals("-u")) {
-				sort=new MSDStringSort(FILENAME,true);
+				sort=new ThreeWayQuickSort(FILENAME,true);
 			}else {
-				sort=new MSDStringSort(FILENAME);
+				sort=new ThreeWayQuickSort(FILENAME, false);
 			}
 			
 			sort.ReadFile();
